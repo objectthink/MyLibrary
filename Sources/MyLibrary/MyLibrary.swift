@@ -1,6 +1,12 @@
-public struct MyLibrary {
-    public private(set) var text = "Hello, World!"
+import SwiftyNats
 
-    public init() {
-    }
+public struct MyLibrary {
+   public private(set) var text = "Hello, World!"
+   
+   public init() {
+   }
+   
+   public func connectTest(){
+      
+   }
 }
